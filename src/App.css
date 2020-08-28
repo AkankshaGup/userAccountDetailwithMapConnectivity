@@ -1,0 +1,232 @@
+body {
+  font-family: "adobe-clean", sans-serif!important;
+}
+.Maincontainer{
+  box-shadow: 1px 1px 9px 1px #282c34;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+.listItemHeader{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding:10px 15px;
+  margin-bottom: 2px;
+  border-bottom: 1px solid #c6c6ce;
+  cursor: pointer;
+}
+.imgDiv img{
+  width: 42px;
+  height: 40px;  
+  border-radius: 50%;
+}
+.listnameDiv{
+  padding:0px 20px;
+  line-height: 40px;
+  color: #666667   ;
+ font-size: 16px;
+}
+.header{
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  background-color: #EDF0F3 ;
+ border-top-left-radius:15px;
+ border-top-right-radius: 15px;
+ color: #666667   ;
+ font-size: 18px;
+ font-weight: 400;
+ margin-bottom: 20px;
+}
+
+.scrollDiv{
+  height: 420px;
+  overflow-x: hidden; 
+   overflow-y: auto; 
+   margin-bottom: 15px;
+   padding: 0px 15px;
+}
+
+/* dashboard css*/
+
+.dashboardHeader{
+  margin-top: 40px;
+  padding: 10px 60px!important;
+}
+.navbarContainer{
+  height: 100vh;
+  background:linear-gradient(#0062cc, #8e5aeb);; 
+  border-radius: 25px;
+  width: 90%;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 50px;
+  font-size: 18px;
+  font-weight: 200;
+}
+.navbarContainer div{
+  padding: 20px 0px;
+  border-bottom: 1px solid #c7c7c9;
+  position: relative;
+}
+
+.navbarContainer div a{
+  color:#c7c7c9;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.textWhite{
+  color: white!important;
+}
+.iconDiv{
+  display: none;
+}
+.textWhite .iconDiv{
+  position: absolute;
+  right: -35%;
+  width: 40px;
+  top: 23%;
+  height: 40px;
+  background-color: white;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  display: block;
+  color:#c7c7c9;
+}
+.profileContainer{
+  padding-top: 15px;
+  position: relative;
+}
+
+.profileHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #c6c6ce;
+  margin-bottom: 40px;
+}
+.textprofile{
+  font-size: 21px;
+  text-transform: capitalize;
+}
+.imgprofile{
+  cursor: pointer;
+}
+.imgprofile span{
+padding-left: 15px;
+font-size: 18px;
+}
+.profilefooter{
+  padding-right: 20px!important;
+  text-align: center;
+  color: #484b4d!important;
+  border-right:1px solid #c6c6ce; ;
+  
+}
+.profilefooter img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.profilefooter p{
+ margin:10px 0px!important;
+}
+.bordershow{
+  margin-right: 20px!important;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c6c6ce;
+  margin-bottom: 10px;
+}
+.userinfo{
+  padding:0px!important;
+}
+.textL{
+  text-align: right!important;
+  padding-right: 5px!important;
+  color: #acb1b6;
+}
+.Al{
+  text-align: center!important;
+}
+.textR{
+  text-align: left;
+  color: #484b4d!important;
+}
+.Aleft{
+  text-align: left!important;
+}
+.addressContainer{
+  padding: 10px 60px!important;
+  padding-right: 0px!important;
+}
+.mapdiv{
+  height: 350px;
+  margin-top: 20px;
+  text-align: right;
+  
+
+}
+.mapdiv div{
+  border-radius: 15px!important;
+}
+
+.commingSoonDiv{
+  height: 70vh;
+  text-align: center;
+  line-height: 70vh;
+  font-size: 80px;
+  font-weight: 800;
+  color: #e2dcdc;
+}
+
+
+.innerDivUser{
+  text-align: center; 
+}
+.btndiv{
+  width: 100%;
+  display: flex!important;
+  flex-direction: row;
+  justify-content: center;
+}
+.innerDivUser img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.innerDivUser p{
+  margin-top: 15px;
+  margin-bottom: 0px!important;
+  font-size: 20px;
+}
+
+.emailt{
+  color: #acb1b6;
+}
+.userListDiv{
+ font-size: 14px;
+ color: #212529!important;
+ height: 150px;
+ overflow-x: hidden; 
+  overflow-y: auto;
+}
+.userListDiv img{
+  width: 40px;
+  height: 40px;
+}
+.signOutBtn{
+  margin-top: 10px;
+  padding: 10px 5px;
+  background-color: #df6954;
+  width: 100px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
